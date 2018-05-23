@@ -6,4 +6,12 @@ public class Barco extends TransporteAquatico{
 	public Boolean isPesqueiro(){
 		return null;
 	}
+
+	public Boolean getPesqueiro() {
+		return pesqueiro;
+	}
+
+	public void setPesqueiro(Boolean pesqueiro) {
+		this.pesqueiro = pesqueiro;
+	}
 }

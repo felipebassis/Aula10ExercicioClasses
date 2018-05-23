@@ -8,4 +8,20 @@ public class Endereco {
 	public String exibirCepFormatado(){
 		return null;
 	}
+
+	public TipoLogradouro getTipoLogradouro() {
+		return tipoLogradouro;
+	}
+
+	public void setTipoLogradouro(TipoLogradouro tipoLogradouro) {
+		this.tipoLogradouro = tipoLogradouro;
+	}
+
+	public Integer getCep() {
+		return cep;
+	}
+
+	public void setCep(Integer cep) {
+		this.cep = cep;
+	}
 }

@@ -15,5 +15,21 @@ public class Roupa {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+	public Integer getAnoFabricacao() {
+		return anoFabricacao;
+	}
+
+	public void setAnoFabricacao(Integer anoFabricacao) {
+		this.anoFabricacao = anoFabricacao;
+	}
+
+	public Tamanho getTamanho() {
+		return tamanho;
+	}
+
+	public void setTamanho(Tamanho tamanho) {
+		this.tamanho = tamanho;
+	}
 	
 }
